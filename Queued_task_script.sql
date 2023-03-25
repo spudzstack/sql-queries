@@ -1,0 +1,1 @@
+DELETE FROM queued_tasks WHERE status IN ('C','E') AND end_date < sysdate - 7
